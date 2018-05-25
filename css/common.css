@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS reset for c_b */
+
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th,
+table td {
+  padding: 5px;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+ception,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+/*for ie f6n.net*/
+
+a:focus {
+  outline: none;
+}
+
+/*for ff f6n.net*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*定位*/
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.bc {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fl {
+  float: left;
+  display: inline;
+}
+
+.fr {
+  float: right;
+  display: inline;
+}
+
+.zoom {
+  zoom: 1
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.vam {
+  vertical-align: middle;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+p {
+  word-spacing: -1.5px;
+}
+
+-moz-box-sizing:content-box;
+-webkit-box-sizing:content-box;
+box-sizing:content-box;
+/*其他*/
+
+.curp {
+  cursor: pointer
+}
+
+;
+/*原reset*/
+
+sup {
+  vertical-align: baseline;
+}
+
+sub {
+  vertical-align: baseline;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  *font-size: 100%;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  font: 12px/1.231 arial, helvetica, clean, sans-serif;
+}
+
+select,
+input,
+button,
+textarea,
+button {
+  font: 99% arial, helvetica, clean, sans-serif;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+  border-collapse: collapse;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+
+/*title*/
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+/* CSS Document */
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+  color: #666;
+  font-size: 12px;
+  font-family: microsoft yahei, "宋体";
+  position: relative;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100%;
+  min-width: 1200px;
+  height: 80px;
+  left: 0;
+  top: 0;
+}
+
+header h1 {
+  float: left;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.logo img {
+  width: 450px;
+  height: 60px;
+}
+
+.nav {
+  width: 
+}
