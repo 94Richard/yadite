@@ -41,23 +41,23 @@ span,
 strong,
 u,
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 table th,
 table td {
-  padding: 5px;
+    padding: 5px;
 }
 
 fieldset,
 img {
-  border: 0;
+    border: 0;
 }
 
 address,
@@ -68,118 +68,108 @@ dfn,
 em,
 th,
 var {
-  font-style: normal;
-  font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 ception,
 th {
-  text-align: left;
+    text-align: left;
 }
 
-q:before,
-q:after {
-  content: '';
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
 }
 
 abbr,
 acronym {
-  border: 0;
+    border: 0;
 }
 
 a {
-  color: #666;
-  text-decoration: none;
+    color: #666;
+    text-decoration: none;
 }
 
 /*for ie f6n.net*/
 
 a:focus {
-  outline: none;
+    outline: none;
 }
 
 /*for ff f6n.net*/
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: none;
 }
 
 /*定位*/
 
 .tl {
-  text-align: left;
+    text-align: left;
 }
 
 .tc {
-  text-align: center;
+    text-align: center;
 }
 
 .tr {
-  text-align: right;
+    text-align: right;
 }
 
 .bc {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fl {
-  float: left;
-  display: inline;
+    float: left;
 }
 
 .fr {
-  float: right;
-  display: inline;
-}
-
-.zoom {
-  zoom: 1
+    float: right;
 }
 
 .hidden {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .vam {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .clear {
-  clear: both;
-  height: 0;
-  line-height: 0;
-  font-size: 0;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
 }
 
 p {
-  word-spacing: -1.5px;
+    word-spacing: -1.5px;
 }
 
--moz-box-sizing:content-box;
--webkit-box-sizing:content-box;
-box-sizing:content-box;
 /*其他*/
 
 .curp {
-  cursor: pointer
+    cursor: pointer
 }
 
 ;
 /*原reset*/
-
-sup {
-  vertical-align: baseline;
-}
-
-sub {
-  vertical-align: baseline;
-}
 
 input,
 button,
@@ -187,26 +177,26 @@ textarea,
 select,
 optgroup,
 option {
-  font-family: inherit;
-  font-size: inherit;
-  font-style: inherit;
-  font-weight: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
 }
 
 input,
 button,
 textarea,
 select {
-  *font-size: 100%;
+    *font-size: 100%;
 }
 
 input,
 select {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 body {
-  font: 12px/1.231 arial, helvetica, clean, sans-serif;
+    font: 12px/1.231 arial, helvetica, clean, sans-serif;
 }
 
 select,
@@ -214,13 +204,13 @@ input,
 button,
 textarea,
 button {
-  font: 99% arial, helvetica, clean, sans-serif;
+    font: 99% arial, helvetica, clean, sans-serif;
 }
 
 table {
-  font-size: inherit;
-  font: 100%;
-  border-collapse: collapse;
+    font-size: inherit;
+    font: 100%;
+    border-collapse: collapse;
 }
 
 pre,
@@ -228,70 +218,131 @@ code,
 kbd,
 samp,
 tt {
-  font-family: monospace;
-  *font-size: 108%;
-  line-height: 100%;
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%;
 }
 
 /*title*/
 
 h1 {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 h2 {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 h3 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 h4 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 h5 {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 h6 {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 /* CSS Document */
 
 body {
-  background-color: #fff;
-  overflow-x: hidden;
-  color: #666;
-  font-size: 12px;
-  font-family: microsoft yahei, "宋体";
-  position: relative;
+    background-color: #fff;
+    overflow-x: hidden;
+    color: #666;
+    font-size: 12px;
+    font-family: microsoft yahei, "宋体";
+    position: relative;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* header */
 
 header {
-  position: fixed;
-  width: 100%;
-  min-width: 1200px;
-  height: 80px;
-  left: 0;
-  top: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: #fff;
 }
 
 header h1 {
-  float: left;
-  margin-left: 80px;
-  margin-top: 10px;
+    float: left;
+    height: 70px;
+    margin-top: 10px;
 }
 
 .logo img {
-  width: 450px;
-  height: 60px;
+    width: 450px;
+    height: 60px;
 }
 
-.nav {
-  width: 
+.lang {
+    float: right;
+    padding: 0 10px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.lang>a {
+    color: #b2b2b2;
+}
+
+.navitems {
+    float: right;
+    margin-right: 10px;
+}
+
+.navitems>li {
+    position: relative;
+    float: left;
+    height: 77px;
+    width: 65px;
+    padding: 0 10px;
+    border-top: 3px solid transparent;
+    text-align: center;
+    line-height: 77px;
+    font-size: 14px;
+}
+
+.navitems>li.cur,
+.navitems>li:hover {
+    border-top: 3px solid #1651b9;
+}
+
+.navitems>li.cur>a,
+.navitems li:hover>a {
+    color: #1651b9;
+}
+
+.navitems>li:hover .dropdown-layer {
+    display: block;
+}
+
+.products>.dropdown-layer {
+    display: none;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    overflow: hidden;
+    left: -32px;
+    z-index: 10;
+    background: #fff;
+}
+
+.dropdown-layer>li {
+    height: 35px;
+    line-height: 35px;
 }

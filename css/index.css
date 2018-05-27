@@ -1,0 +1,40 @@
+/* banner轮播 */
+#banner {
+    position: relative;
+    height: 750px;
+    margin-top: 80px;
+}
+
+#banner ul li {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+
+#banner ul li img {
+    width: 100%;
+    height: 750px;
+}
+#banner .indicator {
+    position: absolute;
+    left:50%;
+    bottom:24px;
+    margin-left: -108px;
+    text-align: center;
+    z-index: 20;
+}
+
+#banner .indicator a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 5px;
+}
+
+#banner .indicator a.cur {
+    background: #ce0609;
+}
