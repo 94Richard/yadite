@@ -200,6 +200,7 @@
 .more:hover {
     background: #1651b8;
     color: #fff;
+    border-color: #1651b8;
 }
 .more:hover i {
     margin-left: 10px;
@@ -494,3 +495,4 @@
 .section5 .more {
     width: 248px;
 }
+

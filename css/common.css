@@ -346,3 +346,10 @@ header h1 {
     height: 35px;
     line-height: 35px;
 }
+
+/* footer */
+
+footer {
+    padding: 90px 0;
+    background: #00295f;
+}
